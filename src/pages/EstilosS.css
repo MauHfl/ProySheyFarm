@@ -1,0 +1,86 @@
+/* Estilos mejorados para el componente Sucursales */
+
+.form-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 2rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 1rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    color: #1b5e20;
+}
+
+p {
+    margin: 0.75rem 0;
+    color: #555;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.color {
+    font-size: 1.1rem;
+    color: #388e3c;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Botón estilizado opcional */
+.submit-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background: #388e3c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    transition: background 0.3s;
+    margin-top: 2rem;
+}
+
+.submit-button:hover {
+    background: #2e7d32;
+}

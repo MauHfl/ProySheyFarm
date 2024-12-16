@@ -1,0 +1,84 @@
+/* Estilos para el formulario de contacto - Tema Farmacia */
+
+.form-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #e8f5e9; /* Fondo suave relacionado con la salud */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #2e7d32; /* Verde saludable */
+}
+
+p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #388e3c;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #1b5e20; /* Verde oscuro para contraste */
+}
+
+input, textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #81c784; /* Borde verde suave */
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.form-check input {
+  margin-right: 0.5rem;
+}
+
+.submit-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background: #388e3c; /* Botón verde principal */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;
+  transition: background 0.3s;
+}
+
+.submit-button:hover {
+  background: #2e7d32; /* Cambio de color al pasar el mouse */
+}
